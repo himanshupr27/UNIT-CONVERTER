@@ -53,3 +53,60 @@ input{
     font-family: 'Bree Serif', serif;
     padding: 0px 4px 0px 4px;
 }
+@media only screen and (max-width:1000px) {
+    #box{
+        margin-top: 255px;
+    }
+    
+}
+@media only screen and (max-width:545px) {
+    #box{
+        width: 366px;
+    }
+    input{
+        width: 99px;
+    } 
+}
+@media only screen and (max-width:396px) {
+    #box{
+        width: 300px;
+        height:240px;
+    }
+    input{
+        width: 69px;
+    } 
+}
+@media only screen and (max-width:380px) {
+#box {
+    width: 181px;
+    height: 140px;
+    margin-top: 77px;
+}
+#box h1 {
+
+    font-size: 1.2rem;
+    margin: 8px 0px 13px 2px;
+}
+select{
+    padding:0;
+    font-size: 0.6rem;
+}
+input {
+    font-size: 0.5rem;
+    height: 17px;
+    width: 47px;
+}
+.inp {
+    padding: 0;
+}
+#unit select {
+    font-size: 0.4rem;
+    height: 20px;
+    width: 59px;
+}
+.material-symbols-outlined{
+    font-size: 19px;
+       line-height: 2;
+       padding-right: 5px;
+}
+}
